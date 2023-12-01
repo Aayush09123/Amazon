@@ -10,5 +10,5 @@ app.get("/api/products", (req, res) => {
 const port = process.env.PORT || 4000;
 
 app.listen(port, () => {
-    console.log(`serve at https://localhost:${port}`)
+    console.log(`serve at http://localhost:${port}`)
 });
