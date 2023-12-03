@@ -1,10 +1,10 @@
 import React, { useEffect, useReducer } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
 import logger from 'use-reducer-logger';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Product from '../components/Product';
+import { Helmet } from 'react-helmet-async';
 // import data from "../data";
 
 const reducer = (state, action) => {
@@ -47,6 +47,9 @@ const HomeScreen = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Amazon</title>
+      </Helmet>
       <h1>Featured Products</h1>
       <div className="products">
         {loading ? (
