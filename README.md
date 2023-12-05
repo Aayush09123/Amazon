@@ -98,3 +98,9 @@
     1. click handler for increment/decrement item
     2. click handler for remove item
     3. click handler for checkout
+
+18. Create SignIn Screen
+
+    1. create signin form
+    2. add email and password
+    3. add signin button
