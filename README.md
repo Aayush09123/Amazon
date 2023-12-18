@@ -165,3 +165,9 @@
 
     1. handle placeOrder action
     2. create api for create order
+
+29. Create Order Screen
+
+    1. create backend api for order/:id
+    2. fetch order api in frontend
+    3. show order information in 2 columns
